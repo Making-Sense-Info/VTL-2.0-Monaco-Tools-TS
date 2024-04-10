@@ -1,3 +1,2 @@
-export * from "./myFunction";
-export * from "./myObject";
-export * from "./MyReactComponent";
+export { default as monarchDefinition } from "./monarch-definition.json";
+export { getSuggestionsFromRange } from "./suggestions";
